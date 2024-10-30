@@ -28,7 +28,7 @@ class _HomePageState extends State<HomePage> {
     }
   }
 
-  // Checkbox was taped
+  // Checkbox was tapped (method)
   void checkBoxChanged(bool? value, int index) {
     setState(() {
       db.toDoList[index][1] = !db.toDoList[index][1];
